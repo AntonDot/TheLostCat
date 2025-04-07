@@ -5,14 +5,39 @@ public class CatMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float MoveSpeed;
-    public Animator animator;
+    public Collider2D groundCheck;
     float HorizontalMovement;
     bool isJump;
     float VerticalMovement;
+
+    private Animator animator;
+    private bool m_Grounded;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         animator = GetComponent<Animator>();
+    }
+
+    private void FixedUpdate()
+    {
+        bool wasGrounded = m_Grounded;
+        m_Grounded = false;
+
+        // Получаем все коллайдеры, касающиеся groundCheck
+        ContactFilter2D contactFilter = new ContactFilter2D();
+        contactFilter.SetLayerMask(Physics2D.GetLayerCollisionMask(gameObject.layer));
+        Collider2D[] colliders = new Collider2D[10];
+        int numColliders = groundCheck.Overlap(contactFilter, colliders);
+
+        for (int i = 0; i < numColliders; i++)
+        {
+            if (colliders[i].gameObject != gameObject)
+            {
+                m_Grounded = true;
+                //if (!wasGrounded)
+                //OnLandEvent.Invoke();
+            }
+        }
     }
 
     // Update is called once per frame
@@ -45,11 +70,11 @@ public class CatMovement : MonoBehaviour
             transform.rotation = Quaternion.Euler(rotate);
         }
          
-        if (VerticalMovement > 0 && rb.linearVelocityY==0) 
+        if (VerticalMovement > 0 && m_Grounded) 
         {
             isJump = true;
            
-            rb.linearVelocity = new Vector2(rb.linearVelocityX , MoveSpeed*2);
+            rb.linearVelocity = new Vector2(rb.linearVelocityX , MoveSpeed*1.6f);
 
         }
         
