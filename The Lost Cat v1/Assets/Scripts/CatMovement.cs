@@ -7,7 +7,6 @@ public class CatMovement : MonoBehaviour
     public float MoveSpeed;
     public Collider2D groundCheck;
     float HorizontalMovement;
-    bool isJump;
     float VerticalMovement;
 
     private Animator animator;
@@ -44,15 +43,13 @@ public class CatMovement : MonoBehaviour
     void Update()
     {
         if (HorizontalMovement == 0)
-        {
             animator.SetBool("IsWalking", false);
-        }
         rb.linearVelocity = new Vector2(HorizontalMovement * MoveSpeed, rb.linearVelocityY);
     }
 
-    public void Move(InputAction.CallbackContext context) 
+    public void Move(InputAction.CallbackContext context)
     {
-        
+
         HorizontalMovement = context.ReadValue<Vector2>().x;
         VerticalMovement = context.ReadValue<Vector2>().y;
         if (HorizontalMovement < 0)
@@ -69,16 +66,11 @@ public class CatMovement : MonoBehaviour
             rotate.y = 0;
             transform.rotation = Quaternion.Euler(rotate);
         }
-         
-        if (VerticalMovement > 0 && m_Grounded) 
-        {
-            isJump = true;
-           
-            rb.linearVelocity = new Vector2(rb.linearVelocityX , MoveSpeed*1.6f);
 
-        }
-        
-            animator.SetBool("IsWalking", true);
+        if (VerticalMovement > 0 && m_Grounded)
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, MoveSpeed * 1.6f);
+
+        animator.SetBool("IsWalking", true);
     }
-    
+
 }
