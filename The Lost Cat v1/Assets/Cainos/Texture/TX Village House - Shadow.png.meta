@@ -1,0 +1,1180 @@
+fileFormatVersion: 2
+guid: 71b95c5c915643547ad062cb819eb85d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9025239467103566888
+    second: TX Village House - Shadow_0
+  - first:
+      213: 609732709448556815
+    second: TX Village House - Shadow_1
+  - first:
+      213: 6033941354656986862
+    second: TX Village House - Shadow_2
+  - first:
+      213: -2721198482178416932
+    second: TX Village House - Shadow_3
+  - first:
+      213: 604398300112884243
+    second: TX Village House - Shadow_4
+  - first:
+      213: -2434634160075315138
+    second: TX Village House - Shadow_5
+  - first:
+      213: -9219568461284137960
+    second: TX Village House - Shadow_6
+  - first:
+      213: 8952704976956261600
+    second: TX Village House - Shadow_7
+  - first:
+      213: 384873413450652388
+    second: TX Village House - Shadow_8
+  - first:
+      213: -1409479093068604108
+    second: TX Village House - Shadow_9
+  - first:
+      213: -229414511954476485
+    second: TX Village House - Shadow_10
+  - first:
+      213: 3163850271955345337
+    second: TX Village House - Shadow_11
+  - first:
+      213: -2821339034788081983
+    second: TX Village House - Shadow_12
+  - first:
+      213: 117199836275309320
+    second: TX Village House - Shadow_13
+  - first:
+      213: -5267256672927601139
+    second: TX Village House - Shadow_14
+  - first:
+      213: -773631043075087996
+    second: TX Village House - Shadow_15
+  - first:
+      213: 3474504232002077677
+    second: TX Village House - Shadow_16
+  - first:
+      213: -8677989431263902788
+    second: TX Village House - Shadow_17
+  - first:
+      213: 1897575131284115905
+    second: TX Village House - Shadow_18
+  - first:
+      213: 6708484015656643540
+    second: TX Village House - Shadow_19
+  - first:
+      213: -5350640319913447033
+    second: TX Village House - Shadow_20
+  - first:
+      213: 6652164063611229552
+    second: TX Village House - Shadow_21
+  - first:
+      213: 8826191968274321725
+    second: TX Village House - Shadow_22
+  - first:
+      213: 7558023278899469723
+    second: TX Village House - Shadow_23
+  - first:
+      213: 3583960285132753889
+    second: TX Village House - Shadow_24
+  - first:
+      213: -3633236240491493964
+    second: TX Village House - Shadow_25
+  - first:
+      213: 5403522700184156553
+    second: TX Village House - Shadow_26
+  - first:
+      213: 99147702610354991
+    second: TX Village House - Shadow_27
+  - first:
+      213: -2237752376681931332
+    second: TX Village House - Shadow_28
+  - first:
+      213: 9134877237791283014
+    second: TX Village House - Shadow_29
+  - first:
+      213: -3636134875140435257
+    second: TX Village House - Shadow_30
+  - first:
+      213: 4547713639374424302
+    second: TX Village House - Shadow_31
+  - first:
+      213: 6529590220009223428
+    second: TX Village House - Shadow_32
+  - first:
+      213: -316855809912895645
+    second: TX Village House - Shadow_33
+  - first:
+      213: -3374597983260605589
+    second: TX Village House - Shadow_34
+  - first:
+      213: -5713356209255549600
+    second: TX Village House - Shadow_35
+  - first:
+      213: 4110820820234415248
+    second: TX Village House - Shadow_36
+  - first:
+      213: -3463845776584349795
+    second: TX Village House - Shadow_37
+  - first:
+      213: -934028187664596566
+    second: TX Village House - Shadow_38
+  - first:
+      213: -4918950729626113580
+    second: TX Village House - Shadow_39
+  - first:
+      213: -2549185033087525868
+    second: TX Village House - Shadow_40
+  - first:
+      213: -6168348832970945343
+    second: TX Village House - Shadow_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TX Village House - Shadow_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 482
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c3b814a77104d70800000000000000
+      internalID: 9025239467103566888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 460
+        width: 102
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f012e923ba4367800800000000000000
+      internalID: 609732709448556815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_2
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 466
+        width: 90
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee67edf51bddcb350800000000000000
+      internalID: 6033941354656986862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 413
+        width: 196
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde5c62e56c5c3ad0800000000000000
+      internalID: -2721198482178416932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 453
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312141d3d01436800800000000000000
+      internalID: 604398300112884243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_5
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 453
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38eda27121763ed0800000000000000
+      internalID: -2434634160075315138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_6
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 459
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814a3c2f4538d0080800000000000000
+      internalID: -9219568461284137960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_7
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 459
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4895a3eb56e3c70800000000000000
+      internalID: 8952704976956261600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 406
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ead7349458575500800000000000000
+      internalID: 384873413450652388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 402
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d5e4b8b36807ce0800000000000000
+      internalID: -1409479093068604108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 406
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3242a487b4f0dcf0800000000000000
+      internalID: -229414511954476485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_11
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 398
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfdb6e3f0148eb20800000000000000
+      internalID: 3163850271955345337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_12
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 397
+        width: 96
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce4380981798d8d0800000000000000
+      internalID: -2821339034788081983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_13
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 360
+        width: 88
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b7ce051a060a100800000000000000
+      internalID: 117199836275309320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 359
+        width: 156
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e285d86f1f6e6b0800000000000000
+      internalID: -5267256672927601139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 360
+        width: 88
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4816b4a4aa28345f0800000000000000
+      internalID: -773631043075087996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_16
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 384
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de34317b03be73030800000000000000
+      internalID: 3474504232002077677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_17
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 340
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3cbe81796919780800000000000000
+      internalID: -8677989431263902788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_18
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 384
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c11ec2378a855a10800000000000000
+      internalID: 1897575131284115905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_19
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 390
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dba99e4ba2591d50800000000000000
+      internalID: 6708484015656643540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 353
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7813daa5af4beb5b0800000000000000
+      internalID: -5350640319913447033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_21
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 353
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0759a2f98fb315c50800000000000000
+      internalID: 6652164063611229552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_22
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 333
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31956cf4deec7a70800000000000000
+      internalID: 8826191968274321725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 340
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d9fe6c02e73e860800000000000000
+      internalID: 7558023278899469723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_24
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 340
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb027404e8ccb130800000000000000
+      internalID: 3583960285132753889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_25
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 333
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5cd6493e6249dc0800000000000000
+      internalID: -3633236240491493964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_26
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 350
+        width: 122
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9897c38444b2dfa40800000000000000
+      internalID: 5403522700184156553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 323
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23e26a6f4e306100800000000000000
+      internalID: 99147702610354991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 342
+        width: 68
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd569cc118e1f0e0800000000000000
+      internalID: -2237752376681931332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_29
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 326
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647d959f27a95ce70800000000000000
+      internalID: 9134877237791283014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_30
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 343
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c258db989ad98dc0800000000000000
+      internalID: -3636134875140435257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_31
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 343
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee88c1fc579bc1f30800000000000000
+      internalID: 4547713639374424302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 279
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405b388b5b3cd9a50800000000000000
+      internalID: 6529590220009223428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 290
+        width: 79
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3678f15d15d4a9bf0800000000000000
+      internalID: -316855809912895645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_34
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 255
+        width: 37
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63800c73050b21d0800000000000000
+      internalID: -3374597983260605589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_35
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 307
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065fc006cc416b0b0800000000000000
+      internalID: -5713356209255549600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_36
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 223
+        width: 73
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c2a5581c19c0930800000000000000
+      internalID: 4110820820234415248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 18
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97e3f15e92fdefc0800000000000000
+      internalID: -3463845776584349795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_38
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 66
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1cc00ef4aa903f0800000000000000
+      internalID: -934028187664596566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_39
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 40
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9acf48f506cbbb0800000000000000
+      internalID: -4918950729626113580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 18
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c5314f7b97f9cd0800000000000000
+      internalID: -2549185033087525868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village House - Shadow_41
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc4210fa6f956aa0800000000000000
+      internalID: -6168348832970945343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
