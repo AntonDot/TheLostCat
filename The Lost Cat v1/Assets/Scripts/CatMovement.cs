@@ -19,25 +19,13 @@ public class CatMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        bool wasGrounded = m_Grounded;
-        m_Grounded = false;
-
         // Получаем все коллайдеры, касающиеся groundCheck
-        ContactFilter2D contactFilter = new ContactFilter2D();
-        contactFilter.SetLayerMask(Physics2D.GetLayerCollisionMask(gameObject.layer));
-        Collider2D[] colliders = new Collider2D[10];
-        int numColliders = groundCheck.Overlap(contactFilter, colliders);
-
-        for (int i = 0; i < numColliders; i++)
-        {
-            if (colliders[i].gameObject != gameObject)
-            {
-                m_Grounded = true;
-                //if (!wasGrounded)
-                //OnLandEvent.Invoke();
-            }
-        }
+        if (groundCheck.IsTouchingLayers(LayerMask.GetMask("Ground")))
+            m_Grounded = true;
+        else
+            m_Grounded = false;
     }
+
 
     // Update is called once per frame
     void Update()
@@ -68,7 +56,10 @@ public class CatMovement : MonoBehaviour
         }
 
         if (VerticalMovement > 0 && m_Grounded)
+        {
             rb.linearVelocity = new Vector2(rb.linearVelocityX, MoveSpeed * 1.6f);
+            m_Grounded = false;
+        }
 
         animator.SetBool("IsWalking", true);
     }
