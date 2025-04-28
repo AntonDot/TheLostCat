@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TX Tileable Wooden Plank_0: -3239058196668101483
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TX Tileable Roof Tile_0: 6437184143015985651
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TX Tileable Brick_0: 6151681581431284622
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
