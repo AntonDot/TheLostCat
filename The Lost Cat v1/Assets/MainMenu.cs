@@ -14,11 +14,4 @@ public class MainMenu : MonoBehaviour
       Debug.Log("Exiting game...");
       Application.Quit();
    }
-
-   // public void Resume()
-   //  {
-   //      pauseGameMenu.SetActive(false);
-   //      Time.timeScale = 1f;
-   //      PauseGame = false;
-   //  }
 }
