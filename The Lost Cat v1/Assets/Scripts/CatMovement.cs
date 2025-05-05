@@ -33,6 +33,8 @@ public class CatMovement : MonoBehaviour
             isClimbing = false;
             animator.SetBool("IsClimbing", false);
             rb.gravityScale = 1f;
+            transform.Rotate(new Vector3(0, 0, 0));
+            transform.localPosition = new Vector3(0, 0, 9.924f);
         }
     }
 
@@ -83,6 +85,8 @@ public class CatMovement : MonoBehaviour
             {
                 isClimbing = true;
                 animator.SetBool("IsClimbing", true);
+                transform.Rotate(new Vector3(0, 0, 90));
+                transform.localPosition = new Vector3(1,0,9.924f);
             }
             else
             {
