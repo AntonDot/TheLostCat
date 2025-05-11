@@ -571,7 +571,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1233784947}
         m_TargetAssemblyTypeName: SaveSystem, Assembly-CSharp
-        m_MethodName: LoadGame
+        m_MethodName: LoadSavedScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

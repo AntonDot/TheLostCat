@@ -30,11 +30,20 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void Pause()
+{
+    pauseGameMenu.SetActive(true);
+    Time.timeScale = 0f;
+    
+    PauseGame = true;
+
+    // Автосохранение при открытии меню
+    var saveSystem = Object.FindFirstObjectByType<SaveSystem>();
+    if (saveSystem != null)
     {
-        pauseGameMenu.SetActive(true);
-        Time.timeScale = 0f;
-        PauseGame = true;
+        saveSystem.SaveGame();
     }
+}
+
 
     public void LoadMenu()
     {
