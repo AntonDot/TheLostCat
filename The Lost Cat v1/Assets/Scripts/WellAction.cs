@@ -13,8 +13,8 @@ public class WellAction : MonoBehaviour, ISaveable
 
     [Header("Аудио")]
     [SerializeField] private AudioSource waterSound;
-    [SerializeField] private float startVolume = 0.1f;
-    [SerializeField] private float idleVolume = 0.005f;
+    [SerializeField] private float startVolume = 0.2f;
+    [SerializeField] private float idleVolume = 0.05f;
     private bool hasPlayed = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
