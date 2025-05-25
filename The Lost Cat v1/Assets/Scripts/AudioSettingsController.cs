@@ -26,14 +26,14 @@ public class AudioSettingsController : MonoBehaviour
 
     public void UpdateMusicVolume()
     {
-        float value = musicSlider.value;
+        float value = Mathf.Log10(musicSlider.value)*20;
         mixer.SetFloat("MusicVolume", value);
         PlayerPrefs.SetFloat("MusicVolume", value);
     }
 
     public void UpdateSFXVolume()
     {
-        float value = sfxSlider.value;
+        float value = Mathf.Log10(sfxSlider.value)*20;
         mixer.SetFloat("SFXVolume", value);
         PlayerPrefs.SetFloat("SFXVolume", value);
     }
