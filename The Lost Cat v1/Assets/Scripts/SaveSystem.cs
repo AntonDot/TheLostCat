@@ -152,11 +152,12 @@ public class SaveSystem : MonoBehaviour
 
     public void NewGame()
     {
-        if (File.Exists(savePath))
-        {
-            File.Delete(savePath);
-        }
+        // Удалить старое сохранение (если есть)
+        if (System.IO.File.Exists(Application.persistentDataPath + "/scene_save.json"))
+            System.IO.File.Delete(Application.persistentDataPath + "/scene_save.json");
 
-        SceneManager.LoadScene("test"); // Укажи стартовую сцену
+        // Загрузить интро-сцену
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1); // имя твоей интро-сцены
     }
+
 }
