@@ -6,7 +6,7 @@ using TMPro;
 public class RoadSignController : MonoBehaviour
 {
     [TextArea]
-    public string hintText; // Текст подсказки для этого знака
+    public string hintText; // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 
     private TMP_Text uiText;
     private CanvasGroup canvasGroup;
@@ -48,8 +48,16 @@ public class RoadSignController : MonoBehaviour
 
     void HideHint()
     {
+        if (!gameObject.activeInHierarchy)
+        return;
+
         StopAllCoroutines();
         StartCoroutine(FadeHint(0f));
+    }
+
+    void OnDisable()
+    {
+        StopAllCoroutines();
     }
 
     IEnumerator FadeHint(float targetAlpha)

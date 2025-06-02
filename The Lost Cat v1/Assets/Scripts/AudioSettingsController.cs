@@ -21,21 +21,26 @@ public class AudioSettingsController : MonoBehaviour
         mixer.SetFloat("MusicVolume", music);
         mixer.SetFloat("SFXVolume", sfx);
 
-        musicSlider.value = 1;
-        sfxSlider.value = 1;
+        float musicSliderValue = PlayerPrefs.GetFloat("MusicSliderValue", 1);
+        float sfxSliderValue = PlayerPrefs.GetFloat("SFXSliderValue", 1);
+
+        musicSlider.value = musicSliderValue;
+        sfxSlider.value = sfxSliderValue;
     }
 
     public void UpdateMusicVolume()
     {
-        float value = Mathf.Log10(musicSlider.value)*20;
+        float value = Mathf.Log10(musicSlider.value) * 20;
         mixer.SetFloat("MusicVolume", value);
         PlayerPrefs.SetFloat("MusicVolume", value);
+        PlayerPrefs.SetFloat("MusicSliderValue", musicSlider.value); // Сохраняем значение слайдера
     }
 
     public void UpdateSFXVolume()
     {
-        float value = Mathf.Log10(sfxSlider.value)*20;
+        float value = Mathf.Log10(sfxSlider.value) * 20;
         mixer.SetFloat("SFXVolume", value);
         PlayerPrefs.SetFloat("SFXVolume", value);
+        PlayerPrefs.SetFloat("SFXSliderValue", sfxSlider.value); // Сохраняем значение слайдер
     }
 }
