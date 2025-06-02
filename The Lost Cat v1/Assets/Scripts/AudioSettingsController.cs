@@ -14,8 +14,8 @@ public class AudioSettingsController : MonoBehaviour
     void Start()
     {
         // Загружаем сохранённые значения или устанавливаем по умолчанию
-        float music = PlayerPrefs.GetFloat("MusicVolume", -20f);
-        float sfx = PlayerPrefs.GetFloat("SFXVolume", -20f);
+        float music = PlayerPrefs.GetFloat("MusicVolume", 0.0001f);
+        float sfx = PlayerPrefs.GetFloat("SFXVolume", 0.0001f);
 
         mixer.SetFloat("MusicVolume", music);
         mixer.SetFloat("SFXVolume", sfx);

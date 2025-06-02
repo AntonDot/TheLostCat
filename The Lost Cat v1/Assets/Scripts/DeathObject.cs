@@ -1,8 +1,6 @@
 using System.IO;
-using UnityEditor.Overlays;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
 public class DeathObject : MonoBehaviour
 {
     private string savePath => Application.persistentDataPath + "/scene_save.json";
@@ -11,7 +9,7 @@ public class DeathObject : MonoBehaviour
     {
         Debug.Log("collision");
         if (collision.gameObject.CompareTag("Player"))
-            LoadSavedScene();
+            NewGame();
 
     }
 
@@ -19,28 +17,16 @@ public class DeathObject : MonoBehaviour
     {
         Debug.Log("collision");
         if (other.gameObject.CompareTag("Player"))
-            LoadSavedScene();
+            NewGame();
     }
 
-    public void LoadSavedScene()
+    public void NewGame()
     {
-        if (!File.Exists(savePath))
-        {
-            Debug.Log("SaveSystem: Нет файла сохранения.");
-            return;
-        }
+        // Удалить старое сохранение (если есть)
+        if (System.IO.File.Exists(Application.persistentDataPath + "/scene_save.json"))
+            System.IO.File.Delete(Application.persistentDataPath + "/scene_save.json");
 
-        string json = File.ReadAllText(savePath);
-        SceneSave sceneSave = JsonUtility.FromJson<SceneSave>(json);
-        Debug.Log("try load scene");
-        foreach (var saved in sceneSave.savedObjects)
-        {
-            if (!string.IsNullOrEmpty(saved.savedScene))
-            {
-                Debug.Log("SaveSystem: Загружается сцена: " + saved.savedScene);
-                SceneManager.LoadScene(saved.savedScene);
-                break;
-            }
-        }
+        // Загрузить интро-сцену
+        UnityEngine.SceneManagement.SceneManager.LoadScene(2); // имя твоей интро-сцены
     }
 }

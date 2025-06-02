@@ -10,14 +10,20 @@ public class CatMovement : MonoBehaviour
     float HorizontalMovement;
     float VerticalMovement;
 
+    private bool wasGrounded;
+
     private Animator animator;
     private bool m_Grounded;
     private bool isJumping;
     private bool isClimbing;
+
+    public LayerMask groundLayer;
+    public float checkDistance = 0.1f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         animator = GetComponent<Animator>();
+        wasGrounded = IsGrounded();
     }
 
     private void FixedUpdate()
@@ -33,7 +39,7 @@ public class CatMovement : MonoBehaviour
             isClimbing = false;
             animator.SetBool("IsClimbing", false);
             rb.gravityScale = 1f;
-            transform.Rotate(new Vector3(0, 0, 0));
+            transform.Rotate(new Vector3(0, 0, -90));
             transform.localPosition = new Vector3(0, 0, 9.924f);
         }
     }
@@ -49,12 +55,17 @@ public class CatMovement : MonoBehaviour
         if (HorizontalMovement == 0)
             animator.SetFloat("XVelocity", 0f);
         rb.linearVelocity = new Vector2(HorizontalMovement * MoveSpeed, rb.linearVelocityY);
-        if (rb.linearVelocityY < 0 && m_Grounded == true && isJumping == true)
+
+        bool isGrounded = IsGrounded();
+        if (!wasGrounded && isGrounded && rb.linearVelocity.y <= 0.1f && isJumping)
         {
+            // Приземление
+            Debug.LogWarning("landed");
             isJumping = false;
             animator.SetBool("IsJumping", false);
         }
 
+        wasGrounded = isGrounded;
     }
 
     public void Move(InputAction.CallbackContext context)
@@ -62,7 +73,6 @@ public class CatMovement : MonoBehaviour
 
         HorizontalMovement = context.ReadValue<Vector2>().x;
         VerticalMovement = context.ReadValue<Vector2>().y;
-        Debug.Log(HorizontalMovement);
         if (HorizontalMovement < 0)
         {
             HorizontalMovement = -1;
@@ -98,6 +108,12 @@ public class CatMovement : MonoBehaviour
 
         }
         animator.SetFloat("XVelocity", 1f);
+    }
+
+    bool IsGrounded()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, checkDistance, groundLayer);
+        return hit.collider != null;
     }
 
 }
