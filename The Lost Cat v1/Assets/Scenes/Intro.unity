@@ -328,7 +328,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4437332124592134043, guid: a65d90c4e384146b195a4883b61ff908, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -360,10 +360,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1840164187}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -146, y: 76}
+  m_SizeDelta: {x: 2034, y: 1028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1231023780
 GameObject:
@@ -395,10 +395,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slides:
-  - {fileID: -4437332124592134043, guid: a65d90c4e384146b195a4883b61ff908, type: 3}
-  - {fileID: 953118400319455960, guid: a091d432125204d35b43c034129f7459, type: 3}
-  - {fileID: -4085612655451620245, guid: 709442ab1bbf949eeb45cd1476bf7e75, type: 3}
-  - {fileID: 2137360135980368278, guid: 16058ee40d6c947988689e2c61707c33, type: 3}
+  - {fileID: -9012870972176700681, guid: 60594ed9aeb8045f4bc5d563618280c9, type: 3}
+  - {fileID: 8320605695413526346, guid: ecbc3567b0600416fb1de6e68e8eb5d5, type: 3}
+  - {fileID: 2005202225070679314, guid: 81247be99066e41778b26a6c2aadf6fe, type: 3}
+  - {fileID: -7121800845607298280, guid: f39288da0416d49aaadaa937d16c7319, type: 3}
+  - {fileID: 6704016467985410583, guid: 7c429a735c2904dc7936eddd9b318915, type: 3}
+  - {fileID: -9065894400280176615, guid: 5ca6128c6f7584458b2c2a2ca97f77eb, type: 3}
+  - {fileID: -7962795638425440371, guid: e3094b0595e7f4f85aa58ed843c6225b, type: 3}
+  - {fileID: -2467960055591787455, guid: 8542f44d199bf4e748f34659faa6435c, type: 3}
+  - {fileID: 2996518248743995134, guid: 68500aa9a90ae4aadb2f51679b74652e, type: 3}
   displayImage: {fileID: 1032902735}
 --- !u!4 &1231023782
 Transform:
