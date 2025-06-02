@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using static UnityEngine.Rendering.DebugUI;
 
 public class AudioSettingsController : MonoBehaviour
 {
@@ -14,14 +15,14 @@ public class AudioSettingsController : MonoBehaviour
     void Start()
     {
         // Загружаем сохранённые значения или устанавливаем по умолчанию
-        float music = PlayerPrefs.GetFloat("MusicVolume", 0.0001f);
-        float sfx = PlayerPrefs.GetFloat("SFXVolume", 0.0001f);
+        float music = PlayerPrefs.GetFloat("MusicVolume", 0);
+        float sfx = PlayerPrefs.GetFloat("SFXVolume", 0);
 
         mixer.SetFloat("MusicVolume", music);
         mixer.SetFloat("SFXVolume", sfx);
 
-        musicSlider.value = music;
-        sfxSlider.value = sfx;
+        musicSlider.value = 1;
+        sfxSlider.value = 1;
     }
 
     public void UpdateMusicVolume()
