@@ -55,7 +55,6 @@ public class SaveSystem : MonoBehaviour
     public void SaveGame()
     {
         SceneSave sceneSave = new SceneSave();
-
         var saveables = Object.FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None);
         foreach (var s in saveables)
         {
@@ -158,6 +157,14 @@ public class SaveSystem : MonoBehaviour
 
         // Загрузить интро-сцену
         UnityEngine.SceneManagement.SceneManager.LoadScene(1); // имя твоей интро-сцены
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("collision");
+        if (collision.gameObject.CompareTag("Player"))
+            SaveGame();
+
     }
 
 }

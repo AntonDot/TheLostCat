@@ -7,7 +7,6 @@ public class WellAction : MonoBehaviour, ISaveable
     private float speed = 0;
     [SerializeField] private GameObject water;
     private Vector2 finalPos;
-    [SerializeField] private GameObject invisibleWall;
 
     public bool isNotUsed = true;
 
@@ -27,6 +26,7 @@ public class WellAction : MonoBehaviour, ISaveable
     {
         if ((Input.GetKeyDown(KeyCode.E) || Input.GetKey(KeyCode.E)) && isNear && isNotUsed)
         {
+
             speed = 1;
 
             if (!hasPlayed)
@@ -48,8 +48,6 @@ public class WellAction : MonoBehaviour, ISaveable
 
         if (Math.Abs(water.transform.position.y - finalPos.y) < 0.01f)
         {
-            Destroy(invisibleWall);
-
             // Переход к тихому звуку
             if (waterSound.isPlaying && waterSound.volume != idleVolume)
             {
@@ -89,4 +87,5 @@ public class WellAction : MonoBehaviour, ISaveable
             isNotUsed = data.customFloat > 0.5f;
         }
     }
+
 }

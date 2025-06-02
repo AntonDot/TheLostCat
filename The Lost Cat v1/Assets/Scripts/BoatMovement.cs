@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class BoatMovement : MonoBehaviour, ISaveable
 {
-    [SerializeField] private GameObject leftWall;
     private bool isMoving = false;
     private Vector2 finalPos;
     private const string BoatID = "Boat_1";
@@ -27,7 +26,6 @@ public class BoatMovement : MonoBehaviour, ISaveable
         if (collision.CompareTag("Player"))
         {
             isMoving = true;
-            leftWall.SetActive(true);
         }
     }
 
@@ -51,6 +49,5 @@ public class BoatMovement : MonoBehaviour, ISaveable
 
         transform.position = data.position;
         isMoving = data.customFloat > 0.5f;
-        leftWall.SetActive(isMoving);
     }
 }
