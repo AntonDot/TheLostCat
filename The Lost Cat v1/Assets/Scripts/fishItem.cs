@@ -2,9 +2,25 @@ using UnityEngine;
 
 public class FishItem : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D other)
+    public float pickupDistance = 1f; // Максимальная дистанция для подбора рыбы
+
+    private Transform playerTransform;
+
+    void Start()
     {
-        if (other.CompareTag("Player"))
+        // Находим игрока по тегу
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            playerTransform = player.transform;
+        }
+    }
+
+    private void Update()
+    {
+        float distance = Vector2.Distance(transform.position, playerTransform.position);
+
+        if (distance <= pickupDistance)
         {
             QuestManager.Instance.CollectFish();
             Destroy(gameObject);
