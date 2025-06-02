@@ -13,6 +13,7 @@ public class QuestManager : MonoBehaviour
     [Header("Референсы")]
     public GameObject basementFish; // Рыба в подвале
     public FloatingDialogue penguinDialogue; // Ссылка на скрипт диалога пингвина
+    public GameObject wall; // Стена, которую нужно разрушить
 
     [Header("Диалоги")]
     [TextArea(3, 10)]
@@ -99,6 +100,7 @@ public class QuestManager : MonoBehaviour
             hasFish = false;
             fishDelivered = true;
             Debug.Log("Рыба доставлена пингвину!");
+            wall.SetActive(false); // Убираем стену
             UpdateDialogueTexts();
         }
     }
