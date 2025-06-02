@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BasementFish_0: -2598656664925926062
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
