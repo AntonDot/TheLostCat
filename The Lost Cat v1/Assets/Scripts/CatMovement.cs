@@ -60,7 +60,6 @@ public class CatMovement : MonoBehaviour
         if (!wasGrounded && isGrounded && rb.linearVelocity.y <= 0.1f && isJumping)
         {
             // Приземление
-            Debug.LogWarning("landed");
             isJumping = false;
             animator.SetBool("IsJumping", false);
         }
