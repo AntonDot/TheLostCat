@@ -34,7 +34,7 @@ public class CatMovement : MonoBehaviour
             animator.SetBool("IsClimbing", false);
             rb.gravityScale = 1f;
             transform.Rotate(new Vector3(0, 0, 0));
-            transform.localPosition = new Vector3(0, 0, 9.924f);
+            transform.localPosition = new Vector3(0, 0, 8.924f);
         }
     }
 
@@ -62,7 +62,6 @@ public class CatMovement : MonoBehaviour
 
         HorizontalMovement = context.ReadValue<Vector2>().x;
         VerticalMovement = context.ReadValue<Vector2>().y;
-        Debug.Log(HorizontalMovement);
         if (HorizontalMovement < 0)
         {
             HorizontalMovement = -1;
@@ -90,7 +89,7 @@ public class CatMovement : MonoBehaviour
             }
             else
             {
-                rb.linearVelocity = new Vector2(rb.linearVelocityX, MoveSpeed * 1.6f);
+                rb.linearVelocity = new Vector2(rb.linearVelocityX, MoveSpeed * 1.4f);
                 m_Grounded = false;
                 isJumping = true;
                 animator.SetBool("IsJumping", true);
