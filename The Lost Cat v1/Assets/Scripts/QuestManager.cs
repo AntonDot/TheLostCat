@@ -31,19 +31,15 @@ public class QuestManager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        Instance = this;
     }
 
     void Start()
     {
+        if (penguinDialogue == null)
+        {
+            penguinDialogue = FindObjectOfType<FloatingDialogue>();
+        }
         // Инициализация начальных диалогов
         UpdateDialogueTexts();
     }

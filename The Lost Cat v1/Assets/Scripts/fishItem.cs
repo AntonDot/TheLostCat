@@ -8,7 +8,6 @@ public class FishItem : MonoBehaviour
 
     void Start()
     {
-        // Находим игрока по тегу
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
@@ -18,11 +17,19 @@ public class FishItem : MonoBehaviour
 
     private void Update()
     {
+        if (playerTransform == null) return;
+
         float distance = Vector2.Distance(transform.position, playerTransform.position);
 
         if (distance <= pickupDistance)
         {
-            QuestManager.Instance.CollectFish();
+            if (QuestManager.Instance != null)
+            {
+                // Только флаг и диалоги — без попытки деактивировать рыбу (она и так будет удалена)
+                QuestManager.Instance.hasFish = true;
+                QuestManager.Instance.UpdateDialogueTexts();
+            }
+
             Destroy(gameObject);
         }
     }
